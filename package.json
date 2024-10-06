@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "fmt": "prettier --write '**/*.{ts,vue}' --config .prettierrc",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
