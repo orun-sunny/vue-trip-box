@@ -1,8 +1,11 @@
 <template>
-  <welcome class="mt-36" />
+  <Hero />
 </template>
 <script setup lang="ts">
-import Welcome from '~/components/sections/welcome.vue';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import Hero from '~/components/sections/hero.vue';
 
 useHead({
   title: 'Most profitable way to start your air ticket selling business',
