@@ -1,5 +1,5 @@
 <template>
-  <welcome />
+  <welcome class="mt-36" />
 </template>
 <script setup lang="ts">
 import Welcome from '~/components/sections/welcome.vue';
