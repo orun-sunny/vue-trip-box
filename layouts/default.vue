@@ -1,5 +1,6 @@
 <template>
   <NavBar />
+  <!-- <BaseNavigation /> -->
   <NuxtPage />
   <Footer />
 </template>

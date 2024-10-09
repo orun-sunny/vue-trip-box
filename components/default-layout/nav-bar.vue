@@ -564,56 +564,11 @@
             </li>
 
             <!-- Landing Page -->
-            <li class="nav-item">
-              <a href="javascript:void(0)" data-hs-collapse="#landing-collapse" class="hs-collapse-toggle nav-link">
+            <li>
+              <NuxtLink to="/about">
                 Landing
-                <i class="fa-solid fa-angle-down ms-auto align-middle transition-all hs-collapse-open:rotate-180"></i>
-              </a>
-
-              <ul
-                id="landing-collapse"
-                class="hs-collapse hidden overflow-hidden transition-[height] duration-300 space-y-2"
-              >
-                <li class="nav-item mt-2">
-                  <NuxtLink class="nav-link" to="/landing/app">App</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/saas">Saas Modern</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/saas2">Saas Classic</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/startup">Startup</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/software">Software</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/agency">Agency</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/coworking">Coworking</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/crypto">Crypto</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/marketing">Marketing</NuxtLink>
-                </li>
-
-                <li class="nav-item">
-                  <NuxtLink class="nav-link" to="/landing/portfolio">Portfolio</NuxtLink>
-                </li>
-              </ul>
+                <i class="fa-solid fa-angle-down ms-auto align-middle"></i>
+              </NuxtLink>
             </li>
 
             <!-- Inner Page -->
@@ -730,7 +685,7 @@
             </li>
 
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="/contact">Contact us</NuxtLink>
+              <NuxtLink class="nav-link" to="/about">Contact us</NuxtLink>
             </li>
           </ul>
         </div>
