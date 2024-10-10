@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div>
     <!-- =========== Hero Section Start =========== -->
     <section class="bg-gradient-to-t from-slate-500/10 relative">
